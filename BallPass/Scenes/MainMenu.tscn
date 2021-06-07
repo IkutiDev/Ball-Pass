@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Resources/Fonts/MODERNA/MODERNA_.TTF" type="DynamicFontData" id=1]
-[ext_resource path="res://MainMenuButton.tscn" type="PackedScene" id=2]
-[ext_resource path="res://MainMenu.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/MainMenuButton.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/GDScript/MainMenu.gd" type="Script" id=3]
 
 [sub_resource type="DynamicFont" id=1]
 size = 60
