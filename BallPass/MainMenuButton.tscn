@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Resources/Fonts/MODERNA/MODERNA_.TTF" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=1]
+size = 26
+use_filter = true
+font_data = ExtResource( 1 )
+
+[node name="Button" type="Button"]
+margin_top = 427.0
+margin_right = 1024.0
+margin_bottom = 447.0
+rect_min_size = Vector2( 180, 0 )
+size_flags_horizontal = 4
+size_flags_vertical = 2
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
