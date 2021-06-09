@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 
 export var speed = 40.0
-
+const GRAVITY = 70.0
 
 
 # Called when the node enters the scene tree for the first time.
@@ -12,6 +12,7 @@ func _ready():
 
 func _physics_process(delta):
 	var moveVector = Vector2()
+	moveVector.y += delta * GRAVITY
 	moveVector.x = int(Input.is_action_pressed("ui_right")) - int(Input.is_action_pressed("ui_left"))
 	if moveVector.x != 0 :
 		$AnimatedSprite.scale.x = sign(moveVector.x)
